@@ -77,3 +77,13 @@ body {
 i{
     width: 32px;
 }
+
+.apresentacao__conteudo__imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    align-items: center;
+}
