@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
 
-:root{
+:root {
     --cor-primaria: #141115;
     --cor-secundaria: #F6F6F6;
     --cor-terciaria: #22D4FD;
-    
+
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
 }
@@ -22,13 +21,13 @@ body {
     padding: 5% 6%;
 }
 
-.cabecalho__nav{
+.cabecalho__nav {
     display: flex;
     padding: 5%;
     gap: 80px;
 }
 
-.cabecalho__nav__links{
+.cabecalho__nav__links {
     color: var(--cor-terciaria);
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
@@ -74,9 +73,14 @@ body {
     gap: 15px;
 }
 
-.apresentacao__conteudo__subtitulo{
+.apresentacao__conteudo__subtitulo {
     font-family: "Krona One", sans-serif;
     font-size: 1.5rem;
+}
+
+#linha-horizontal {
+    width: auto;
+    border: 1px solid var(--cor-terciaria);
 }
 
 .apresentacao__links {
@@ -104,12 +108,12 @@ body {
     color: var(--cor-terciaria);
 }
 
-i{
+i {
     width: 32px;
     color: var(--cor-terciaria);
 }
 
-.apresentacao__conteudo__imagem{
+.apresentacao__conteudo__imagem {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,13 +123,13 @@ i{
     align-items: center;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
 
-    body{
+    body {
         padding: 5% 3%;
     }
 
-    .cabecalho__nav{
+    .cabecalho__nav {
         justify-content: center;
         width: auto;
         font-size: 1%;
@@ -134,27 +138,50 @@ i{
         line-height: 40px;
     }
 
-    .apresentacao{
+    .apresentacao {
         flex-direction: column-reverse;
         padding: 0%;
     }
 
-    .apresentacao__conteudo{
+    .apresentacao__conteudo {
         width: auto;
     }
 
-    .apresentacao__links__navegacao{
+    .apresentacao__links__navegacao {
         width: auto;
     }
 
-    .apresentacao__conteudo__imagem{
+    .apresentacao__conteudo__imagem {
         width: 80%;
         align-items: center;
         justify-content: center;
     }
 
-    img{
+    img {
         width: 100%;
     }
 
+}
+
+ul {
+    font-family: "Montserrat", sans-serif;
+    padding: 0 0 0 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.italico{
+    width: auto;
+    font-size: 1rem;
+    color: var(--cor-secundaria);
+}
+
+.apresentacao__conteudo__curriculo{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
