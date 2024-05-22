@@ -6,8 +6,9 @@ Nesse portfólio, irei  utilizar práticas de Git para salvar o repositório no 
 Desenvolvi o projeto utilizando HTML e CSS, com as fontes do google fonts e icones do bootstrap icons.
 Adicionei duas telas além da principal, sendo o "sobre mim" e o Currículo. A seguir está um print de como está o portfólio.
 
-
-![image](https://github.com/brunocmnz/portfolio/assets/117315412/bb78fb78-c34c-4be7-bd3d-81a3d925368b)
+<table><tr><td>
+    <img src="[/images/logo.png](https://github.com/brunocmnz/portfolio/assets/117315412/bb78fb78-c34c-4be7-bd3d-81a3d925368b)" />
+</td></tr></table>
 
 ![image](https://github.com/brunocmnz/portfolio/assets/117315412/53c18713-d9ad-413b-b475-a3d6268a1f91)
 
