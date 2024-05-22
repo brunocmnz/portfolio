@@ -158,6 +158,10 @@ i {
 
 @media (max-width: 1200px) {
 
+    main{
+        padding: 10%;    
+    }
+
     .cabecalho__nav {
         padding: 10%;
         justify-content: center;
