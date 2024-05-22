@@ -107,9 +107,17 @@ i{
 
 @media (max-width: 1200px){
 
+    body{
+        padding: 5% 3%;
+    }
+
     .apresentacao{
         flex-direction: column-reverse;
-        padding: 1%;
+        padding: 0%;
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
     }
 
     .apresentacao__links__navegacao{
@@ -117,7 +125,7 @@ i{
     }
 
     .apresentacao__conteudo__imagem{
-        width: 100%;
+        width: 80%;
         align-items: center;
         justify-content: center;
     }
