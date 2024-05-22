@@ -126,7 +126,7 @@ i {
 @media (max-width: 1200px) {
 
     body {
-        padding: 5% 3%;
+        padding: 5% 3% 20% 3%;
     }
 
     .cabecalho__nav {
