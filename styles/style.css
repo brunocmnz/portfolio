@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
 
 :root{
     --cor-primaria: #141115;
@@ -110,16 +110,18 @@ i{
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
-        width: 100%;
-    }
-
-    .apresentacao__conteudo{
-        width: auto;
     }
 
     .apresentacao__links__navegacao{
         width: auto;
-        align-items: center;
+    }
+
+    .apresentacao__conteudo__imagem{
+        width: 80%;
+    }
+
+    img{
+        width: 100%;
     }
 
 }
