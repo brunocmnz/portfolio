@@ -11,5 +11,6 @@ Adicionei duas telas além da principal, sendo o "sobre mim" e o Currículo. A s
 
 ![image](https://github.com/brunocmnz/portfolio/assets/117315412/53c18713-d9ad-413b-b475-a3d6268a1f91)
 
-![Uploading image.png…]()
+![image](https://github.com/brunocmnz/portfolio/assets/117315412/956a0745-5364-484b-b13c-42ae25adc04e)
+
 
