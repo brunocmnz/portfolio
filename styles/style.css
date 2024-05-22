@@ -2,10 +2,10 @@
 
 
 :root{
-    --cor-primaria: #000000;
+    --cor-primaria: #141115;
     --cor-secundaria: #F6F6F6;
-    --cor-terciaria: red;
-
+    --cor-terciaria: #22D4FD;
+    
     --fonte-primaria: "Krona One", sans-serif;
     --fonte-secundaria: "Montserrat", sans-serif;
 }
@@ -40,6 +40,11 @@ body {
 .apresentacao__conteudo__titulo {
     font-family: "Krona One", sans-serif;
     font-size: 36px;
+    color: var(--cor-secundaria);
+}
+
+.destaque__titulo {
+    color: var(--cor-terciaria);
 }
 
 .destaque {
@@ -82,10 +87,12 @@ body {
     font-size: 24px;
     font-weight: 600;
     align-items: center;
+    color: var(--cor-terciaria);
 }
 
 i{
     width: 32px;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__imagem{
