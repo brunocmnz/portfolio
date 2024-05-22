@@ -37,9 +37,12 @@ body {
 }
 
 .cabecalho__nav__links:hover{
-    color: #c2dbff;
-    font-size: 1.6rem;
-    transition: all 0.2s;
+    color: var(--cor-secundaria);
+    transition: all 0.1s;
+}
+
+#pagina_atual{
+    border-bottom: 2px solid var(--cor-terciaria);
 }
 
 .apresentacao {
