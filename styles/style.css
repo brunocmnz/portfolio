@@ -177,6 +177,10 @@ i {
         width: auto;
     }
 
+    .apresentacao__conteudo__texto{
+        font-size: 1rem;
+    }
+
     .apresentacao__conteudo__imagem {
         width: 80%;
         align-items: center;
