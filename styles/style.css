@@ -16,7 +16,6 @@
 }
 
 body {
-    width: 100%;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     box-sizing: border-box;
@@ -159,10 +158,6 @@ i {
 
 @media (max-width: 1200px) {
 
-    main{
-        padding: 10%;    
-    }
-
     .cabecalho__nav {
         padding: 10%;
         justify-content: center;
@@ -175,7 +170,7 @@ i {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 10%;
+        padding: 15%;
     }
 
     .apresentacao__conteudo {
@@ -186,6 +181,10 @@ i {
         width: 80%;
         align-items: center;
         justify-content: center;
+    }
+
+    .apresentacao__links__navegacao{
+        width: 70%;
     }
 
     img {
