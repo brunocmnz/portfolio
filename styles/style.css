@@ -110,10 +110,16 @@ i{
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
+        width: 100%;
     }
 
-    .apresentacao__conteudo__imagem{
+    .apresentacao__conteudo{
         width: auto;
+    }
+
+    .apresentacao__links__navegacao{
+        width: auto;
+        align-items: center;
     }
 
 }
