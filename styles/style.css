@@ -16,9 +16,12 @@
 }
 
 body {
+    width: 100%;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -157,6 +160,8 @@ i {
 }
 
 @media (max-width: 1200px) {
+
+    body
 
     main{
         padding: 10%;    
