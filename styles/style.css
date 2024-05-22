@@ -177,6 +177,10 @@ i {
         width: auto;
     }
 
+    .apresentacao__conteudo__titulo{
+        font-size: 1.7rem;
+    }
+
     .apresentacao__conteudo__texto{
         font-size: 1rem;
     }
